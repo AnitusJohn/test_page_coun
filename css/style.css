@@ -14195,3 +14195,47 @@ span.count-text.perct:after {
 border-radius: 10px;
     color: #fff;
 }
+.course_h{
+    background-image: url('../images/courses_h.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 25vh;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.course_h h3{
+    background-color: #fff;
+  
+    border-radius: 10px 10px 0 0;
+    color: #d20106;
+}
+.course_h p{
+    background-color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 0 0 20px 20px;
+}
+.course_p {
+background-image: url('../images/learning.jpg');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+min-height: 25vh;
+border-radius: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+.course_p h3{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    color: #d20106;
+}
