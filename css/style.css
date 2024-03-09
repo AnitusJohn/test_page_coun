@@ -14162,3 +14162,36 @@ span.count-text.perct:after {
     position: absolute;
     content: '%';
 }
+
+.approvalapplication {
+    text-align: center;
+    padding: 50px 0px;
+}
+.col-md-3.course-box2 {
+    border: solid 1px #cccccc;
+    padding: 28px 38px 51px 38px;
+    text-align: center;
+    height: 200px;
+}
+.course-box2 h4 {
+    margin-bottom: 41px;
+    font-size: 1.4em;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 27px;
+    margin: 0 0 14px 0;
+}
+.course-box2 a {
+    border: solid 2px #014069;
+    background-color: #014069;
+    color: #fff;
+    padding: 6px 20px;
+}
+.approvalapplication a {
+    color: #333;
+    border: solid 1px #cecece !important;
+    padding: 10px;
+    background-color: #b73437;
+border-radius: 10px;
+    color: #fff;
+}

@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> JIIR</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./images/fav_icon.png">
+    <!-- Stylesheets -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+    <link href="css/flaticon.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+    <style>
+        .main-header .header-lower {
+            position: relative;
+            margin-bottom: -30px;
+            background: #fff;
+        }
+
+        .main-header .main-box:before,
+        .main-header .header-lower,
+        .sticky-header {
+            background-color: #b73437;
+        }
+
+        .main-menu .navigation>li>a {
+            color: #e9ecf7;
+        }
+
+        section.feature-section-three.pt-0 {
+            margin-top: -10%;
+        }
+
+        /* .feature-block-five .inner-box {
+    background-color: #001376;
+} */
+
+
+        .feature-block-five {
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .feature-block-five .inner-box {
+            position: relative;
+            background: #c04949;
+            padding: 30px 30px;
+            -webkit-transition: all 300ms ease;
+            -o-transition: all 300ms ease;
+            transition: all 300ms ease;
+            overflow: hidden;
+            transition: all 300ms ease;
+        }
+
+        .feature-block-five .inner-box:before {
+            position: absolute;
+            left: -45px;
+            top: -45px;
+            height: 196px;
+            width: 196px;
+            background-image: url(../images/icons/object-1.png);
+            content: "";
+            -webkit-transition: all 300ms ease;
+            -o-transition: all 300ms ease;
+            transition: all 300ms ease;
+        }
+
+        .feature-block-five .icon-box {
+            position: relative;
+            display: inline-block;
+            padding-left: 20px;
+            -webkit-transition: all 300ms ease;
+            -o-transition: all 300ms ease;
+            transition: all 300ms ease;
+        }
+
+        .feature-block-five .icon-box .icon {
+            position: relative;
+            font-size: 68px;
+            line-height: 1em;
+            color: #fe00c5;
+            -webkit-transition: all 300ms ease;
+            -o-transition: all 300ms ease;
+            transition: all 300ms ease;
+        }
+
+        .feature-block-five .icon-box:before {
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 55px;
+            width: 55px;
+            background-color: #fff1cc;
+            content: "";
+            border-radius: 50%;
+            -webkit-transition: all 300ms ease;
+            -o-transition: all 300ms ease;
+            transition: all 300ms ease;
+        }
+
+        .feature-block-five h4 {
+            font-size: 24px;
+            color: #ffae00;
+            font-weight: 700;
+            padding-top: 40px;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            -webkit-transition: all 300ms ease;
+            -o-transition: all 300ms ease;
+            transition: all 300ms ease;
+        }
+
+        .feature-block-five h4 {
+            padding-top: 20px;
+            margin-top: 10px;
+        }
+
+        .feature-block-five h4:before {
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 4px;
+            width: 60px;
+            background: #1e1d27;
+            content: "";
+            -webkit-transition: all 300ms ease;
+            -o-transition: all 300ms ease;
+            transition: all 300ms ease;
+        }
+
+        .feature-block-five p {
+            margin-bottom: 0px;
+            line-height: 1.5;
+            -webkit-transition: all 300ms ease;
+            -o-transition: all 300ms ease;
+            transition: all 300ms ease;
+        }
+
+        .feature-block-five .theme-btn i {
+            color: #ffffff;
+            margin-right: 0;
+            margin-left: 10px;
+            font-size: 12px;
+            -webkit-transition: all 300ms ease;
+            -o-transition: all 300ms ease;
+            transition: all 300ms ease;
+        }
+
+        .feature-block-five .inner-box:hover .theme-btn {
+            background: #ffc600;
+            background: -o-linear-gradient(45deg, #ffc600 1%, #ff6c00 100%);
+            background: linear-gradient(45deg, #ffc600 1%, #ff6c00 100%);
+        }
+
+        .feature-block-five .inner-box {
+            background-color: #001376;
+        }
+
+        .feature-block-five .inner-box:hover {
+            background-color: #001376;
+        }
+
+        .feature-block-five .inner-box.box-1 {
+            background-color: #ff9800;
+        }
+
+        .feature-block-five .inner-box.box-1:hover {
+            background-color: #ff9800;
+        }
+
+        .feature-block-five .inner-box.box-1 .icon-box:before {
+            background: #ffc107;
+        }
+
+
+        .feature-block-five .inner-box.box-2 {
+            background-color: #8d0394;
+        }
+
+        .feature-block-five .inner-box.box-2:hover {
+            background-color: #8d0394;
+        }
+
+        .feature-block-five .inner-box.box-2 .icon-box:before {
+            background: #c020c8;
+        }
+
+        .feature-block-five .inner-box.box-3 {
+            background-color: #b73437;
+        }
+
+        .feature-block-five .inner-box.box-3:hover {
+            background-color: #b73437;
+        }
+
+        .feature-block-five .inner-box.box-3 .icon-box:before {
+            background: #da5e61;
+        }
+
+        .feature-block-five .inner-box .icon-box:before {
+            background: #334291;
+        }
+
+        .feature-block-five .inner-box:hover .icon-box:before {
+            background: #334291;
+        }
+
+        .feature-block-five .inner-box {
+            background-color: #001376;
+            border-radius: 4px;
+            box-shadow: 0px 5px 10px #2a25259c;
+        }
+
+        .feature-block-five .inner-box h4:before {
+            background: #ffffff;
+        }
+
+        .feature-block-five .inner-box:hover h4:before {
+            background: #ffffff;
+        }
+
+
+        .feature-block-five .inner-box p,
+        .feature-block-five .inner-box h4,
+        .feature-block-five .inner-box .icon-box .icon {
+            color: #ffffff;
+        }
+
+        .feature-block-five .inner-box:hover p,
+        .feature-block-five .inner-box:hover h4,
+        .feature-block-five .inner-box:hover .icon-box .icon {
+            color: #ffffff;
+        }
+
+        .icon-circle-1 {
+            background-image: url(images/circle-1.png);
+
+        }
+
+        .feature-block .icon-box .icon {
+            color: #b73437;
+        }
+
+        .sec-title .sub-title {
+            color: #f44336;
+        }
+
+        .call-to-action .content-box {
+            max-width: 100%;
+        }
+
+        .call-to-action {
+            padding: 50px 0;
+        }
+    </style>
+</head>
+
+
+
+<body>
+
+    <div class="page-wrapper">
+        <!-- Preloader -->
+        <div class=""></div>
+        <!-- Main Header-->
+        <header class="main-header header-style-one">
+            <!-- Header top -->
+            <div class="header-top">
+                <div class="auto-container">
+                    <div class="inner-container">
+                        <div class="top-left col-md-5">
+                            <ul class="contact-list-one">
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30"
+                                        viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                        <path fill="#ffae00"
+                                            d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
+                                    </svg>
+                                    <a href="mailto:info@jiier.org"> info@jiier.org</a> <strong>Mail to us</strong>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30"
+                                        viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                        <path fill="#ffae00"
+                                            d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
+                                    </svg>
+
+                                    <a href="mailto:verify@jiier.org">verify@jiier.org</a> <strong>Mail to us</strong>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <div class="top-right col-md-7">
+                            <div><a href="" class="btn btn-sm custm">Student Verification </a>
+                                <a href="" class="btn btn-sm custm">Student Enquiry </a>
+                                <a href="" class="btn btn-sm custm">Branch Verification </a>
+                                <a href="" class="btn btn-sm custm">Branch Enquiry </a>
+                            </div>
+                            <ul class="social-icon-one">
+
+                                <li><a href="https://www.facebook.com/jawaharlalcouncil" target="_blank"><span
+                                            class="fab fa-facebook-f"></span></a></li>
+
+                                <li><a href="https://www.facebook.com/jawaharlalcouncil" target="_blank"><span
+                                            class="fab fa-instagram"></span></a></li>
+                                <li><a href="https://www.facebook.com/jawaharlalcouncil" target="_blank"><span
+                                            class="fab fa-youtube"></span></a></li>
+                                <li><a href="https://www.facebook.com/jawaharlalcouncil" target="_blank"><span
+                                            class="fab fa-linkedin"></span></a></li>
+                                <li><a href="https://www.facebook.com/jawaharlalcouncil" target="_blank"><span
+                                            class="fab fa-google "></span></a></li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="container-fluid" style="position: relative;background: #fff;">
+                <div class=" ">
+                    <div class="container mob">
+                        <div class="row">
+                            <div class="col-md-10 col-9 d-flex justify-content-end"><a href="index.php"><img
+                                        src="images/logo.png" class="img-fluid  "></a></div>
+                            <div class="col-md-2 col-3 d-flex align-items-center"><img src="images/qci-logo.jpg"
+                                    class="img-fluid  "></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- End Header Top -->
+            <!-- Header Lower -->
+            <style>
+                .main-header .nav-outer,
+                .main-header .main-box {
+                    justify-content: center;
+                }
+            </style>
+            <div class="header-lower">
+
+                <div class="container-fluid">
+
+                    <!-- Main box -->
+
+                    <div class="main-box">
+
+
+
+
+
+                        <div class="nav-outer">
+
+
+
+                            <!-- Main Menu -->
+
+                            <nav class="main-menu navbar-expand-md">
+
+                                <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+    
+                                    <ul class="navigation clearfix">
+    
+                                        <li class="current  "><a href="">HOME</a></li>
+    
+                                      
+                                         <li class="dropdown"><a href="#">ABOUT US</a>
+                                            <ul>
+                                               <li><a href="about-aiite.php">About AIITE</a></li>
+                  <li><a href="founder-and-chairman.php">Founder &amp; Chairman</a></li>
+                  <li><a href="vision.php">Vision</a></li>
+                  <li><a href="mission.php">Mission</a></li>
+                  <li><a href="board-of-directors.php">Board of Directors</a></li>
+                  <li><a href="Board-of-Advisory.php">Board of Advisory</a></li>
+                  <li><a href="accreditation.php">Accreditation & Recognition</a></li>
+                  <li><a href="quality-policy.php">Quality Policy</a></li>
+                  <li><a href="the-mark-of-excellence.php">The Mark of Excellence</a></li>
+                  <li><a href="acheivement-awards.php">Achievements & Awards</a></li>
+                                            </ul>
+                                        </li>
+    
+                                        
+    
+                                                <li><a href="./courses.html">COURSES</a></li>
+                                    
+    
+                                        <li class="dropdown"><a href="#">ADMISSION</a>
+    
+                                            <ul>
+    
+                                               <li> <a href="admission.php">Admission</a></li>
+                    <li> <a href="student-register.php">Online Admission</a></li>
+                    <li> <a href="student-login.php">Login</a></li>
+    
+                                            </ul>
+    
+                                        </li>
+                                        <li class="dropdown"><a href="#">BRANCHES</a>
+    
+                                            <ul>
+    
+                                             <li> <a href="franchise.php">Indian Branch</a></li>
+                    <li> <a href="Overseas-franchise.php">Overseas Branch</a></li>
+                    <li> <a href="register.php">Online Apply</a></li>
+    
+                                            </ul>
+    
+                                        </li>
+    
+                                       <li class="dropdown"><a href="#">MEDIA</a>
+                                        <ul>
+                                        <li><a href="gallery.php">Gallery</a></li>
+                                        <li><a href="events.php">NEWS & EVENTS</a></li>
+                                        </ul>
+    
+                                        </li>
+                                         <li class="dropdown"><a href="#">RESULTS</a>
+                                        <ul>
+                                         <li><a href="online-exam-result.php">Online Exam Result</a></li>
+                                        </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="#">DOWNLOAD</a>
+                                        <ul>
+                                          <li><a href="">Admit Card</a></li>
+                  <li> <a href="download.php">Download</a></li>
+                                        </ul>
+                                        </li>
+                                          
+                                              
+                                                <li><a href="contact.html">CONTACT US</a></li>
+                                                
+                                                    <li><a href="" target="_blank">ONLINE EXAM</a></li>
+                                                 
+    
+                                    </ul>
+    
+                                </div>
+    
+                            </nav>
+                            <!-- Main Menu End-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- Sticky Header  -->
+
+            <div class="sticky-header">
+
+                <div class="container-fluid">
+                    <div class="main-box">
+
+                        <div class="logo-box">
+                            <div class="upper-right">
+                                <a href="#nav-mobile" class="mobile-nav-toggler navbar-trigger">
+                                    <!-- <i class="flaticon-menu"></i> -->
+                                    <svg class="flaticon-menu" xmlns="http://www.w3.org/2000/svg" height="14"
+                                        width="12.25"
+                                        viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                        <path fill="#d20106"
+                                            d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                                    </svg>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <nav class="main-menu navbar-expand-md">
+
+                            <!--Keep This Empty / Menu will come through Javascript-->
+
+                        </nav>
+
+                    </div>
+
+                </div>
+
+            </div><!-- End Sticky Menu -->
+
+
+
+            <!-- Mobile Header -->
+
+            <div class="mobile-header">
+
+
+
+
+
+                <!--Nav Box-->
+
+                <div class="nav-outer clearfix">
+
+                    <div class="outer-box">
+
+                        <!-- Search Btn -->
+
+                        <div class="search-box">
+
+                            <button class="search-btn mobile-search-btn"><i class="flaticon-search-2"></i></button>
+
+                        </div>
+
+
+
+                        <a href="#nav-mobile" class="mobile-nav-toggler navbar-trigger">
+
+                            <!-- <i class="flaticon-menu"></i> -->
+
+                            <svg class="flaticon-menu" xmlns="http://www.w3.org/2000/svg" height="24" width="24"
+                                viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path fill="#d20106"
+                                    d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                            </svg>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Mobile Menu  -->
+
+            <div class="mobile-menu">
+
+                <div class="menu-backdrop"></div>
+
+
+
+                <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+
+                <nav class="menu-box">
+
+                    <div class="upper-box">
+
+
+
+                        <div class="close-btn">
+                            <!-- <i class="icon flaticon-close"></i> -->
+                            <svg class="icon flaticon-close" xmlns="http://www.w3.org/2000/svg" height="25" width="25"
+                                viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path fill="#d20601"
+                                    d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+                            </svg>
+                        </div>
+
+                    </div>
+
+
+
+                    <ul class="navigation clearfix"><!--Keep This Empty / Menu will come through Javascript--></ul>
+
+
+
+                    <ul class="contact-list-one">
+
+
+
+                        <li><i class="flaticon-call-1"></i><a href="mailto: info@jiier.org"> info@jiier.org</a>
+                            <strong>Mail to us</strong></li>
+
+                        <li><i class="flaticon-email-1"></i> <a href="mailto:verify@jiier.org">verify@jiier.org</a>
+                            <strong>Mail to us</strong></li>
+
+                    </ul>
+
+
+
+                    <ul class="social-links">
+
+                        <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+
+                        <li><a href="#"><span class="fab fa-pinterest"></span></a></li>
+
+                        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+
+                        <li><a href="#"><span class="fab fa-dribbble"></span></a></li>
+
+                    </ul>
+
+                </nav>
+
+            </div><!-- End Mobile Menu -->
+
+
+
+            <!-- Header Search -->
+
+            <div class="search-popup">
+
+                <button class="close-search"><i class="flaticon-close"></i></button>
+
+                <form method="post" action="blog.html">
+
+                    <div class="form-group">
+
+                        <input type="search" name="search-field" value="" placeholder="Search" required="">
+
+                        <button type="submit"><i class="fa fa-search"></i></button>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </header>
+
+        </section>
+
+
+        <section>
+            <div class="container">
+
+                <div class="approvalapplication">
+                    <div class="row">
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>1.Allied Health Education</h4>
+                            <a href="./pdf/1. ALLIED HEALTH EDUCATION.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>2.Agriculture &amp; Allied Technology</h4>
+                            <a href="./pdf/2. AGRICULTURE AND ALLIED TECHNOLOGY.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>3.Automobile Sector</h4>
+                            <a href="./pdf/3. AUTOMOBILE SECTOR.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>4.Child Education</h4>
+                            <a href="./pdf/4. CHILD EDUCATION.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>5.Communicative &amp; Soft Skills Educations</h4>
+                            <a href="./pdf/5. COMMUNICATIVE & SOFT SKILLS EDUCATION.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>6.Dairy Education</h4>
+                            <a href="./pdf/6. DAIRY EDUCATION.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>7.Electrical &amp; Electronics Sector</h4>
+                            <a href="./pdf/7. ELECTRICAL & ELECTRONICS SECTOR.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>8.Fishery Science Sector</h4>
+                            <a href="./pdf/8. FISHERY SCIENCE SECTOR.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>9.Home Business Education</h4>
+                            <a href="./pdf/9.Home Business Education.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>10.Interior &amp; Exterior Education</h4>
+                            <a href="./pdf/10.Interior & Exterior Education.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>11.Office Management Education</h4>
+                            <a href="./pdf/11.Office Management Education.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>12.Poultry Education</h4>
+                            <a href="./pdf/12.Poultry Education.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>13.Veterinary Sector</h4>
+                            <a href="./pdf/13.Veterinary Sector.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>14.Health &amp; Paramedical Sector</h4>
+                            <a href="./pdf/14.Health & Paramedical Sector.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>15.Acupuncture Sector</h4>
+                            <a href="./pdf/15.Acupuncture Sector.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>16.Aviation Sector</h4>
+                            <a href="./pdf/16.Aviation Sector.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>17.Ayurveda Sector</h4>
+                            <a href="./pdf/17.Ayurveda Sector.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>18.Beauty Culture &amp; Spa</h4>
+                            <a href="./pdf/18.Beauty Culture & Spa.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>19.Bio- Technology</h4>
+                            <a href="./pdf/19.Bio- Technology.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>20.Business School</h4>
+                            <a href="./pdf/20.Business School.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>21.Computer &amp; Information Technology</h4>
+                            <a href="./pdf/21.Computer & Information Technology.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>22.Fashion &amp; Design Technology</h4>
+                            <a href="./pdf/22.Fashion & Design Technology.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>23.Health Safety ENVIRONMENTAL SECTOR</h4>
+                            <a href="./pdf/23.Fire and Safety.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>24.Foresrt &amp; Environment Sector</h4>
+                            <a href="./pdf/24.Foresrt & Environment Sector.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>25.Gold Appraiser, Gem &amp; Jewellery Sector</h4>
+                            <a href="./pdf/25.Gold Appraiser, Gem & Jewellery Sector.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>26.Geo School</h4>
+                            <a href="./pdf/26.Geo School.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>27.Homoeopathy Sector</h4>
+                            <a href="./pdf/27.Homoeopathy Sector.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>28.Hotel Management &amp; Tourism Sector</h4>
+                            <a href="./pdf/28.Hotel Management & Tourism Sector.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>29.Advertising &amp; Media Industry</h4>
+                            <a href="./pdf/29.Advertising & Media Industry.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>30.Music School</h4>
+                            <a href="./pdf/30.Music School & Media Courses.docx">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>31.Rehabilitation School</h4>
+                            <a href="./pdf/31.Rehabilitation School.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>32.Shipping Industry</h4>
+                            <a href="./pdf/32.Shipping Industry.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>33.Siddha Sector</h4>
+                            <a href="./pdf/33.Siddha Sector.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>34.Sports Sector</h4>
+                            <a href="./pdf/34.Sports Sector.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>35.Technical Training Technology</h4>
+                            <a href="./pdf/35.Technical Training Technology.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>36.Textile Technology Sector</h4>
+                            <a href="./pdf/36.Textile Technology Sector.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>37.Unani Sector</h4>
+                            <a href="./pdf/37.Unani Sector.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>38.Yoga &amp; Naturopathy Sector</h4>
+                            <a href="./pdf/38.Yoga & Naturopathy Sector.pdf">Download</a>
+                        </div>
+    
+    
+    
+                        <div class="col-md-3 course-box2">
+                            <h4>39.HandiCraft</h4>
+                            <a href="./pdf/39.HandiCraft.pdf">Download</a>
+                        </div>
+                        
+                        <div class="col-md-3 course-box2">
+                            <h4>40.Trade Courses</h4>
+                            <a href="./pdf/40.Trade Courses (1).docx">Download</a>
+                        </div>
+    
+    
+    
+                    </div>
+    
+    
+    
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer class="main-footer" style="background-color: #1e1d27 !important;">
+
+            <!--Widgets Section-->
+
+            <div class="widgets-section">
+
+                <div class="auto-container">
+
+                    <div class="row">
+
+                        <!--Big Column-->
+
+                        <div class="big-column col-xl-6 col-lg-12 col-md-12 col-sm-12">
+
+                            <div class="row">
+
+                                <!--Footer Column-->
+
+                                <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+
+                                    <!--Footer Column-->
+
+                                    <div class="footer-widget contact-widget">
+
+                                        <h2 class="widget-title">Get in Touch</h2>
+
+                                        <!--Footer Column-->
+
+                                        <div class="widget-content">
+
+                                            <ul class="contact-list-three">
+
+                                                <li>
+
+                                                    <i class="icon flaticon-call-1"></i>
+
+                                                    <div class="text">
+
+                                                        <a href="tel:919794303626">verify@jiier.org</a> <br>
+
+                                                        <strong>Mail to us</strong>
+
+                                                    </div>
+
+                                                </li>
+
+
+
+                                                <li>
+
+                                                    <i class="icon flaticon-email-1"></i>
+
+                                                    <div class="text">
+
+                                                        <a href="mailto:info@aiiteindia.com">info@jiier.org</a><br>
+
+                                                        <strong>Mail to us</strong>
+
+                                                    </div>
+
+                                                </li>
+
+
+
+                                                <li>
+
+                                                    <i class="icon flaticon-location"></i>
+
+                                                    <div class="text">
+
+                                                        NEW DELHI (INDIA) - 110096
+
+                                                        <strong>Address</strong>
+
+                                                    </div>
+
+                                                </li>
+
+                                            </ul>
+
+                                        </div>
+                                        <h2 class="widget-title p-2 m-0 mt-4 bg-info rounded">Visits : <span
+                                                class="text-dark">1068864</span></h2>
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <!--Footer Column-->
+
+                                <div class="footer-column col-xl-5 col-lg-6 col-md-6 col-sm-12">
+
+                                    <div class="footer-widget lnks-widget">
+
+                                        <h2 class="widget-title">Useful Links</h2>
+
+                                        <ul class="user-links">
+
+                                            <li><a href="about-aiite.php">About AIITE</a></li>
+                                            <li><a href="founder-and-chairman.php">Founder &amp; Chairman</a></li>
+                                            <li><a href="vision.php">Vision</a></li>
+                                            <li><a href="mission.php">Mission</a></li>
+                                            <li><a href="board-of-directors.php">Board of Directors</a></li>
+                                            <li><a href="accreditation.php">Accreditation</a></li>
+                                            <li><a href="quality-policy.php">Quality Policy</a></li>
+                                            <li><a href="the-mark-of-excellence.php">The Mark of Excellence</a></li>
+
+
+                                        </ul>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!--Big Column-->
+
+                        <div class="big-column col-xl-6 col-lg-12 col-md-12 col-sm-12">
+
+                            <div class="row">
+
+                                <!--Footer Column-->
+
+                                <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+
+                                    <div class="footer-widget gallery-widget">
+
+                                        <h2 class="widget-title">Academic</h2>
+
+                                        <ul class="user-links">
+
+                                            <li><a href="academic-course.php?Aid=14">AIITE TEACHERS TRAINING ACADEMY
+                                                </a></li>
+                                            <li><a href="academic-course.php?Aid=20">AIITE COMPUTER EDUCATION ACADEMY
+                                                </a></li>
+                                            <li><a href="academic-course.php?Aid=21">AIITE VOCATIONAL EDUCATION ACADEMY
+                                                </a></li>
+                                            <li><a href="academic-course.php?Aid=22">AIITE HARDWARE NETWORKING ACADEMY
+                                                </a></li>
+                                            <li><a href="academic-course.php?Aid=23">AIITE AGRICULTURE EDUCATION ACADEMY
+                                                </a></li>
+                                            <li><a href="academic-course.php?Aid=24">AIITE FASHION DESIGN AND TEXTILE
+                                                    ACADEMY</a></li>
+                                            <li><a href="academic-course.php?Aid=25">AIITE NATUROPATHY AND YOGA SCIENCES
+                                                </a></li>
+                                            <li><a href="academic-course.php?Aid=26">AIITE HEALTH AND PARAMEDICAL
+                                                    SCIENCES</a></li>
+                                            <li><a href="academic-course.php?Aid=27">AIITE BIOMEDICAL TECHNOLOGY ACADEMY
+                                                </a></li>
+                                            <li><a href="academic-course.php?Aid=28">AIITE MANAGEMENT EDUCATION ACADEMY
+                                                </a></li>
+                                            <li><a href="academic-course.php?Aid=29">AIITE ENGINEERING AND TECHNOLOGY
+                                                    ACADEMY </a></li>
+
+                                        </ul>
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <!--Footer Column-->
+
+                                <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+
+                                    <!--Footer Column-->
+
+                                    <div class="footer-widget contact-widget">
+
+                                        <h2 class="widget-title"> </h2>
+
+                                        <!--Footer Column-->
+
+                                        <div class="widget-content">
+
+                                            <ul class="user-links">
+
+                                                <li><a href="academic-course.php?Aid=30">AIITE MASS-COMMUNICATION AND
+                                                        JOURNALISM ACADEMY</a></li>
+                                                <li><a href="academic-course.php?Aid=31">AIITE HYGIENE AND PUBLIC HEALTH
+                                                        ACADEMY</a></li>
+                                                <li><a href="academic-course.php?Aid=32">AIITE SOCIAL SCIENCES ACADEMY
+                                                    </a></li>
+                                                <li><a href="academic-course.php?Aid=34">AIITE FOOTWEAR TECHNOLOGY
+                                                        ACADEMY </a></li>
+                                                <li><a href="academic-course.php?Aid=35">AIITE SPORTS AND PHYSICAL
+                                                        EDUCATION ACADEMY</a></li>
+                                                <li><a href="academic-course.php?Aid=36">AIITE HANDWRITING TRAINING
+                                                        ACADEMY </a></li>
+                                                <li><a href="academic-course.php?Aid=37">AIITE AVIATION TRAINING
+                                                        ACADEMY</a></li>
+                                                <li><a href="academic-course.php?Aid=38">AIITE FIRE AND SAFETY TRAINING
+                                                        ACADEMY </a></li>
+                                                <li><a href="academic-course.php?Aid=39">AIITE HOTEL AND HOSPITALITY
+                                                        MANAGEMENT ACADEMY</a></li>
+                                                <li><a href="academic-course.php?Aid=40">AIITE BEAUTY AND WELLNESS
+                                                        ACADEMY</a></li>
+
+                                            </ul>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="footer-bottom">
+
+                <div class="auto-container">
+
+                    <div class="inner-container">
+
+
+
+
+
+                        <div class="copyright-text">
+
+                            <p>© Copyright aiiteindia. All Rights Reserved | Designed by <a
+                                    href="https://www.gobuzy.com/" target="_blank">Gobuzy</a></p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+        <!-- End Footer -->
+
+        <div class="pm-button"><a
+                href="https://www.payumoney.com/paybypayumoney/#/BAB940F059060B10931038BB1404EC73"><img
+                    src="https://www.payumoney.com//media/images/payby_payumoney/buttons/211.png" /></a></div>
+
+    </div>
+
+    <!-- End Page Wrapper -->
+
+    <a href="../track/Web_doc/1687337289.pdf" target="_blank" class="PPbutton1"><span
+            class="blink blink-infinite">Franchise Proposal</span></a>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/5a095e70198bd56b8c03ac86/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+
+    <!--Scroll to top-->
+
+    <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/jquery.countdown.js"></script>
+    <script src="js/appear.js"></script>
+    <script src="js/owl.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
