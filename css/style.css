@@ -2021,7 +2021,7 @@ hr {
     top: 100%;
     width: 100%;
     height: 560px;
-    background-image: url(../images/wave.png);
+    background-image: url('../images/wave.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -3258,7 +3258,7 @@ Page Title
     top: -210px;
     height: 422px;
     width: 422px;
-    background-image: url(../images/icon-bull-eye-2.png);
+    background-image: url('../images/icon-bull-eye-2.png');
     content: "";
 }
 
@@ -3377,7 +3377,7 @@ Page Title
     display: block;
     width: 68px;
     height: 5px;
-    background-image: url(../images/divider.png);
+    background-image: url('../images/divider.png');
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 30px;
@@ -3387,7 +3387,7 @@ Page Title
     margin: 30px auto 0;
     width: 90px;
     height: 5px;
-    background-image: url(../images/divider-centered.png);
+    background-image: url('../images/divider-centered.png');
 }
 
 .sec-title.light h2,
@@ -4017,7 +4017,7 @@ a.ui-button:active,
     right: -210px;
     height: 150px;
     width: 170px;
-    background-image: url(../images/object-7.png);
+    background-image: url('../images/object-7.png');
     z-index: 9;
 }
 
@@ -4026,7 +4026,7 @@ a.ui-button:active,
     bottom: 0;
     height: 220px;
     width: 173px;
-    background-image: url(../images/object-8.png);
+    background-image: url('../images/object-8.png');
     z-index: 9;
 }
 
@@ -4464,7 +4464,7 @@ a.ui-button:active,
     top: 30px;
     height: 230px;
     width: 230px;
-    background-image: url(../images/pattern-1.png);
+    background-image: url('../images/pattern-1.png');
     content: "";
 }
 
@@ -4546,7 +4546,7 @@ a.ui-button:active,
 .fact-counter-two {
     position: relative;
     max-width: 770px;
-    background-image: url(../images/counter-bg.png);
+    background-image: url('../images/counter-bg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
@@ -4622,7 +4622,7 @@ a.ui-button:active,
     bottom: 50px;
     height: 350px;
     width: 100%;
-    background-image: url(../images/pattern-2.png);
+    background-image: url('../images/pattern-2.png');
     background-repeat: repeat;
     background-position: center;
     background-size: cover;
@@ -4741,7 +4741,7 @@ a.ui-button:active,
     width: 430px;
     height: 430px;
     border-radius: 50%;
-    background-image: url(../images/pattern-2.png);
+    background-image: url('../images/pattern-2.png');
     content: "";
 }
 
@@ -4806,7 +4806,7 @@ a.ui-button:active,
     bottom: 95px;
     width: 230px;
     height: 43px;
-    background-image: url(../images/object-9.png);
+    background-image: url('../images/object-9.png');
     content: "";
 }
 
@@ -5002,7 +5002,7 @@ a.ui-button:active,
     padding: 100px 0 70px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(../images/pattern-3.png);
+    background-image: url('../images/pattern-3.png');
 }
 
 .feature-section-two .icon-object-2 {
@@ -5240,7 +5240,7 @@ a.ui-button:active,
     top: -45px;
     height: 196px;
     width: 196px;
-    background-image: url(../images/object-1.png);
+    background-image: url('../images/object-1.png');
     content: "";
     -webkit-transition: all 300ms ease;
     -o-transition: all 300ms ease;
@@ -5434,19 +5434,19 @@ a.ui-button:active,
 }
 
 .fact-counter .counter-column .icon.bg-1:before {
-    background-image: url(../images/fun-fact-one.png);
+    background-image: url('../images/fun-fact-one.png');
 }
 
 .fact-counter .counter-column .icon.bg-2:before {
-    background-image: url(../images/fun-fact-two.png);
+    background-image: url('../images/fun-fact-two.png');
 }
 
 .fact-counter .counter-column .icon.bg-3:before {
-    background-image: url(../images/fun-fact-three.png);
+    background-image: url('../images/fun-fact-three.png');
 }
 
 .fact-counter .counter-column .icon.bg-4:before {
-    background-image: url(../images/fun-fact-four.png);
+    background-image: url('../images/fun-fact-four.png');
 }
 
 .fact-counter .counter-column .count-box .count-text {
@@ -5491,7 +5491,7 @@ a.ui-button:active,
 }
 
 .speakers-section:before {
-    background-image: url(../images/4.jpg);
+    background-image: url('../images/4.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -5686,7 +5686,7 @@ a.ui-button:active,
 .speakers-section-two {
     padding: 90px 0 50px;
     background-color: #081245;
-    background-image: url(../images/background/10.jpg);
+    background-image: url('../images/background/10.jpg');
     overflow: hidden;
 }
 
@@ -10542,7 +10542,7 @@ padding-right: 5px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* background-image: url(../images/3.jpg); */
+    background-image: url('../images/3.jpg') !important;
     padding: 90px 0 0;
 }
 
@@ -14214,6 +14214,7 @@ border-radius: 10px;
     border-radius: 10px 10px 0 0;
     color: #d20106;
 }
+
 .course_h p{
     background-color: #fff;
     font-weight: 700;
