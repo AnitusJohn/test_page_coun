@@ -1376,7 +1376,7 @@ hr {
 }
 .contact-list-one li svg {
     position: absolute;
-    left: 0;
+    left: -8px;
     top: 7px;
     font-size: 38px;
     line-height: 30px;
